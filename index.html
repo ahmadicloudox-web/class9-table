@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>جدول حصص الصف التاسع - مدرسة الإيمان</title>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #f0f2f5; 
+            margin: 0;
+            padding: 40px 20px 20px; 
+            text-align: center; 
+            position: relative; 
+        }
+        
+        .credit-corner {
+            position: absolute;
+            top: 10px;   
+            left: 15px;  
+            font-size: 11px; 
+            color: #b0b0b0; 
+            font-style: italic;
+        }
+
+        .container { 
+            max-width: 950px; 
+            margin: auto; 
+            background: white; 
+            padding: 20px; 
+            border-radius: 15px; 
+            box-shadow: 0 8px 20px rgba(0,0,0,0.08); 
+        }
+        
+        .school-logo { 
+            width: 140px; 
+            height: auto; 
+            margin-bottom: 10px;
+        }
+        
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; table-layout: fixed; }
+        th, td { border: 1px solid #ddd; padding: 12px 8px; text-align: center; font-size: 15px; }
+        
+        .header-row { background-color: #333; color: white; }
+        .day-column { background-color: #f8f9fa; font-weight: bold; width: 90px; }
+        
+        .subject { border-radius: 8px; display: block; padding: 10px 2px; color: #fff; font-weight: bold; text-decoration: none; transition: 0.3s; font-size: 0.9em; }
+        .subject:hover { opacity: 0.8; transform: scale(1.05); }
+        
+        /* تعريف الألوان للمواد */
+        .arabic { background-color: #e67e22; } 
+        .english { background-color: #3498db; } 
+        .math { background-color: #2ecc71; } 
+        .religion { background-color: #9b59b6; } 
+        .social { background-color: #795548; } 
+        .science { background-color: #16a085; } 
+        .tech { background-color: #607d8b; } 
+        
+        .empty { color: #ccc; font-style: italic; background-color: #fafafa; }
+    </style>
+</head>
+<body>
+
+    <div class="credit-corner">
+         by Eng Ahmad Hussein
+    </div>
+
+    <div class="container">
+        <img src="logo_school.png" alt="مدرسة الإيمان الثانوية" class="school-logo">
+        
+        <h2>جدول الحصص الافتراضي - الصف التاسع</h2>
+        <p>مدرسة الإيمان الثانوية - فرع الشيخ علي قدورة الطزيز</p>
+        <p style="color: #666; font-size: 0.9em;">اضغط على اسم المادة للانتقال إلى حصة الزووم مباشرة</p>
+
+        <table>
+            <tr class="header-row">
+                <th>اليوم</th>
+                <th>(1)<br>8:30-9:10</th>
+                <th>(2)<br>9:20-10:00</th>
+                <th>(3)<br>10:10-10:50</th>
+                <th>(4)<br>11:00-11:40</th>
+                <th>(5)<br>11:50-12:30</th>
+            </tr>
+            
+            <tr>
+                <td class="day-column">الأحد</td>
+                <td><a href="#" class="subject arabic">عربي</a></td>
+                <td><a href="#" class="subject english">انجليزي</a></td>
+                <td><a href="#" class="subject math">رياضيات</a></td>
+                <td class="empty">-</td>
+                <td><a href="#" class="subject science">علوم</a></td>
+            </tr>
+
+            <tr>
+                <td class="day-column">الاثنين</td>
+                <td><a href="#" class="subject social">اجتماعيات</a></td>
+                <td><a href="#" class="subject arabic">عربي</a></td>
+                <td><a href="#" class="subject religion">دين</a></td>
+                <td><a href="#" class="subject tech">تكنو</a></td>
+                <td><a href="#" class="subject math">رياضيات</a></td>
+            </tr>
+
+            <tr>
+                <td class="day-column">الثلاثاء</td>
+                <td colspan="5" class="empty">لا توجد حصص</td>
+            </tr>
+
+            <tr>
+                <td class="day-column">الأربعاء</td>
+                <td><a href="#" class="subject english">انجليزي</a></td>
+                <td><a href="#" class="subject arabic">عربي</a></td>
+                <td><a href="#" class="subject math">رياضيات</a></td>
+                <td><a href="#" class="subject science">علوم</a></td>
+                <td class="empty">-</td>
+            </tr>
+
+            <tr>
+                <td class="day-column">الخميس</td>
+                <td><a href="#" class="subject religion">دين</a></td>
+                <td><a href="#" class="subject arabic">عربي</a></td>
+                <td><a href="#" class="subject science">علوم</a></td>
+                <td><a href="#" class="subject math">رياضيات</a></td>
+                <td><a href="#" class="subject english">انجليزي</a></td>
+            </tr>
+        </table>
+    </div>
+
+</body>
+</html>
